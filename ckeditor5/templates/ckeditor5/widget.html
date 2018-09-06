@@ -1,0 +1,13 @@
+{% load static %}
+
+<div class="django-ckeditor-widget"
+     data-field-id="{{ id }}"
+     style="display: inline-block;">
+    <textarea{{ final_attrs }}
+        data-processed="0"
+        data-config="{{ config }}"
+        data-id="{{ id }}"
+        data-type="ckeditortype">
+        {{ value }}
+    </textarea>
+</div>

@@ -1,0 +1,9 @@
+include AUTHORS.rst
+include LICENSE
+include CHANGELOG.rst
+include README.md
+recursive-include ckeditor5/static *
+recursive-include ckeditor5/static *.asp *.php
+recursive-exclude ckeditor5/static/ckeditor5/ckeditor_build_classic/_samples *
+recursive-include ckeditor5/templates *
+recursive-include docs *
